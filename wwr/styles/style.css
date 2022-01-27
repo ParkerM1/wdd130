@@ -1,7 +1,116 @@
-body {
-    background-color: lightblue;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=New+Rocker&display=swap');
+#contant {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
-img {
-    max-width: 100%;
+nav a {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color:lightgrey;
+}
+
+header {
+    background-color: #90C2E7;
+}
+
+nav a:hover {
+    background-color: rgba(78, 78, 78, 0.404);
+    color: black;
+}
+/* I seperated .book and . join to have different colors to look better*/
+.book {
+    background-color: lightgrey;
+    color: blue;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: rgba(78, 78, 78, 0.404);
+    color: black;    
+}
+
+#background {
+    background-color: #00A9A5;
+}
+
+.msg {
+    background-color: #4E8098;
+}
+
+footer {
+    background-color: #0B5351;
+}
+
+.join {
+    background-color: #4E8098;
+    color: darkblue;
+    text-decoration: none;
+}
+
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+.msg h2 {
+    color: black;
+}
+
+.msg p {
+    color: black;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: rgb(2, 89, 189);
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: rgba(78, 78, 78, 0.404);
+    color: black; 
+}
+
+.logo {
+    width: 80px;
+
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
 }
