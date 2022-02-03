@@ -8,6 +8,7 @@ nav a {
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +29,8 @@ main section {
 
 body {
     background-color:lightgrey;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -43,6 +46,10 @@ nav a:hover {
     background-color: lightgrey;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -56,20 +63,31 @@ nav a:hover {
 
 .msg {
     background-color: #4E8098;
+    line-height: 1.8em;
+    padding: 35px;
 }
 
 footer {
     background-color: #0B5351;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .join {
     background-color: #4E8098;
     color: darkblue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .home-title {
     color: black;
+    font-family: "New Rocker", "Georgia", serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -78,14 +96,19 @@ h4 {
 
 .msg h2 {
     color: black;
+    font-family: "New Rocker", "Georgia", serif;
 }
 
 .msg p {
     color: black;
+    font-family: "EB Garamond", "Helvetica", sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
     color: white;
+    font-family: "EB Garamond", "Helvetica", sans-serif;
 }
 
 footer a {
@@ -105,6 +128,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -113,4 +137,36 @@ footer a:hover {
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+#hero-msg h4 {
+    font-family: "EB Garamond", "Helvetica", sans-serif;
+} 
+
+.home-grid {
+    font-family: "EB Garamond", "Helvetica", sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
