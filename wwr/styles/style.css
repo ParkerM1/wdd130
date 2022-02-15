@@ -253,6 +253,15 @@ nav {
     transform: scale(1.1);
 }
 
+/* I added these two to make my images look better */
+.camping-card .card-img{
+    height: 200px;
+}
+
+.rapids-card .card-img {
+    height: 200px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
