@@ -253,12 +253,16 @@ nav {
     transform: scale(1.1);
 }
 
-/* I added these two to make my images look better */
+/* I added these 3 to make my images look better */
 .camping-card .card-img{
     height: 200px;
 }
 
 .rapids-card .card-img {
+    height: 200px;
+}
+
+.rivers-card .card-img {
     height: 200px;
 }
 
