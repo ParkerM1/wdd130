@@ -111,7 +111,7 @@ h4 {
 .msg p {
     color: black;
     font-family: "EB Garamond", "Helvetica", sans-serif;
-    font-size: .8em;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 
@@ -121,7 +121,7 @@ footer h3 {
 }
 
 footer a {
-    color: rgb(2, 89, 189);
+    color: rgb(150, 185, 224);
     text-decoration: none;
 }
 
