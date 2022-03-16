@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rowdies&display=swap');
+#contant {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: #247BA0;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner-msg h2 {
+    text-align: center;
+}
+
+nav {
+    align-items: center;
+}
+
+body {
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", Helvetica, sans-serif;
+    color: white
+}
+
+header {
+    background-color: #000000b1;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+    background-color: #CC59D2;
+    color: white;
+}
+
+.banner-title {
+    color: white;
+    font-family: "Rowdies", Papyrus, Fantasy;
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+.logo {
+    width: 115px;
+    padding-top: 5px;
+    grid-column: 1/2;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#banner-img {
+    width: 100%;
+    height: 700px;
+}
+
+.pic-grid {
+    font-family: "Oswald", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-family: "Rowdies", Papyrus, Fantasy;
+    color: #247BA0;
+}
+
+.history {
+    margin: 100px;
+}
+
+.history p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card-img {
+    width: 100%;
+    border: 10px solid #247BA0;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.greek-card {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.norse-card {
+    grid-column: 4/5;
+    text-align: center;
+}
+
+.greek-card a {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #247BA0;
+}
+
+.greek_link, .norse_link {
+    background-color: #247BA0;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.greek_link:hover, .norse_link:hover {
+    background-color: #D81159;
+    color: black;    
+}
+
+p {
+    text-align: center;
+}
+
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+h4{
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+.facts {
+    margin: 150px;
+    background-color: #CC59D2;
+    padding: 25px;
+    color: white;
+}
+
+.sources {
+    text-align: center;
+    border: solid #D81159;
+    padding: 15px 30px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #247BA0;
+    padding: 30px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.social img {
+    max-width: 75px;
+    padding: 20px;
+}
+
+footer h5 {
+    color: white;
+    font-family: "Oswald", Helvetica, sans-serif
+}
+
+footer h6{
+    color: white;
+    font-family: "Oswald", Helvetica, sans-serif
+}
+
+footer a {
+    color: purple;
+    text-decoration: none;
+}
+
+footer h6:hover {
+    background-color: #CC59D2;
+    color: white;
+}
+
+footer h6 a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
