@@ -24,6 +24,12 @@ nav {
     align-items: center;
 }
 
+nav a.active{
+    color: white;
+    background-color: #CC59D2;
+}
+
+
 body {
     background-color:black;
     margin: 0;
@@ -51,7 +57,7 @@ nav a:hover {
 }
 
 .logo {
-    width: 115px;
+    width: 90px;
     padding-top: 5px;
     grid-column: 1/2;
 }
