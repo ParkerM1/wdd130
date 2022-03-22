@@ -174,7 +174,7 @@ h4{
 }
 
 .facts {
-    margin: 150px;
+    margin: 125px;
     background-color: #CC59D2;
     padding: 25px;
     color: white;
@@ -184,7 +184,9 @@ h4{
     text-align: center;
     border: solid #D81159;
     padding: 15px 30px;
-    margin: 25px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
     border-radius: 5px;
 }
 
@@ -194,7 +196,7 @@ footer {
     margin: 25px;
     border-radius: 5px;
     padding: 30px 50px;
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -212,8 +214,9 @@ footer h5 {
 }
 
 footer h6{
-    color: white;
+    font-size: 18px;
     font-family: "Oswald", Helvetica, sans-serif
+    
 }
 
 footer a {
@@ -223,14 +226,75 @@ footer a {
 
 footer h6:hover {
     background-color: #CC59D2;
-    color: white;
+    text-decoration: underline;
 }
 
 footer h6 a:hover {
-    text-decoration: underline;
     color: black;
 }
 
 footer .social img {
     padding-top: 15px;
+}
+
+.banner-title-greek {
+    color: #CC59D2;
+    font-family: "Rowdies", Papyrus, Fantasy;
+    font-size: 2em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.constellations-title{
+    margin-bottom: 50px;
+}
+
+.big-pic-grid {
+    font-family: "Oswald", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 50px;
+    justify-items: center;
+    column-gap: 9em;
+}
+
+.card-img-greek {
+    width: 100%;
+    border: 8px solid #247BA0;
+}
+
+.ursa-card {
+    grid-column: 2/3;
+}
+
+.cyguns-card {
+    grid-column: 3/4;
+}
+
+.canes-card {
+    grid-column: 2/3;
+}
+
+.banner-title-norse {
+    color: #D81159;
+    font-family: "Rowdies", Papyrus, Fantasy;
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-img-norse {
+    width: 100%;
+    border: 8px solid #247BA0;
+}
+
+.ulf-card {
+    grid-column: 2/3;
+}
+
+.fiskikarlar-card {
+    grid-column: 3/4;
+}
+
+.karlvagn-card {
+    grid-column: 2/3;
 }
