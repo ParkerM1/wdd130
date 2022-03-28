@@ -174,10 +174,13 @@ h4{
 }
 
 .facts {
-    margin: 125px;
-    background-color: #CC59D2;
-    padding: 25px;
-    color: white;
+    border: solid #CC59D2;
+    padding: 15px 30px;
+    margin: 25px;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin-top: 100px;
+
 }
 
 .sources {
