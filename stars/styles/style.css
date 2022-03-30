@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rowdies&display=swap');
+*{
+    font-family: "Oswald", Helvetica, sans-serif;
+}
 #contant {
     max-width: 1600px;
     margin: 0 auto;
@@ -34,7 +37,6 @@ body {
     background-color:black;
     margin: 0;
     padding: 0;
-    font-family: "Oswald", Helvetica, sans-serif;
     color: white
 }
 
